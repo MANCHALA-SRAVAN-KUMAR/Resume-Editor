@@ -3,11 +3,11 @@ import axios from 'axios';
 
 function ResumeEditor() {
   const [resume, setResume] = useState({
-    name: "John Doe",
-    summary: "Experienced developer...",
-    education: "B.Tech in CS",
-    experience: "3 years at XYZ Corp",
-    skills: "React, Python"
+    name: " ",
+    summary: " ",
+    education: "",
+    experience: "",
+    skills: ""
   });
 
   const handleChange = (field, value) => {
